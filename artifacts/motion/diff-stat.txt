@@ -1,0 +1,22 @@
+ app.config.ts                                     |  10 +-
+ app/(tabs)/profile.tsx                            |  10 +-
+ app/(tabs)/tasks.tsx                              |  10 +-
+ package-lock.json                                 |  50 +++++---
+ package.json                                      |   2 +
+ src/features/lesson-player/LessonStepRenderer.tsx |   4 +-
+ src/features/lesson-player/exercises.tsx          |  12 +-
+ src/features/lesson-player/useLessonPlayer.ts     |   4 +
+ src/providers/AppProviders.tsx                    |   3 +-
+ src/screens/home/index.tsx                        | 150 ++++++++++++++++------
+ src/screens/lesson-complete/index.tsx             |  53 ++++++--
+ src/screens/lesson-overview/index.tsx             |  67 +++++++---
+ src/screens/lesson-player/index.tsx               |  40 +++++-
+ src/shared/theme/index.ts                         |  28 +++-
+ src/shared/ui/index.tsx                           | 100 +++++++++++----
+ src/widgets/bottom-navigation/index.ts            |   7 +-
+ src/widgets/learning-path/LessonCard.tsx          |  59 +++++----
+ src/widgets/learning-path/index.tsx               |  22 +++-
+ src/widgets/mascot/index.tsx                      |  71 ++--------
+ tests/setup.ts                                    |   9 +-
+ tsconfig.json                                     |   3 +-
+ 21 files changed, 483 insertions(+), 231 deletions(-)

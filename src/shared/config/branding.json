@@ -1,0 +1,9 @@
+{
+  "displayName": "BibleLoop",
+  "slug": "bible-loop",
+  "scheme": "bibleloop",
+  "version": "1.0.0",
+  "iosBundleIdentifier": "com.example.bibleloop",
+  "androidPackage": "com.example.bibleloop",
+  "tagline": "Понимать. Открывать. Возвращаться."
+}
